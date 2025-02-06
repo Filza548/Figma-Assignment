@@ -910,6 +910,8 @@ margin-top: 50px;
     border-radius: 16px;
     border: 1.5px solid rgb(206, 206, 206);
     background-color: #fcfcfc;
+    border: 1.5px solid #008ECC;
+    box-shadow: 0.1px 0.1px 10px #5c5b5b;
 }
 
 .smartphne-image-two-child {
@@ -919,6 +921,7 @@ margin-top: 50px;
     display: flex;
     /* margin-left: 10px; */
     flex-direction: column;
+    
 }
 
 .smartphne-image-two-child img {
@@ -1104,44 +1107,28 @@ margin-top: 50px;
     height: 30vh;
     /* background-color: lightcoral; */
     display: flex;
-    justify-content: center;
-    position: relative;
+    align-items: center;
     flex-direction: column;
 }
 
 .round-img{
-    width: 180px;
-height: 25vh;
-/* background-color: #249B3E; */
+    width: 140px;
+height: 140px;
+background-color: #F5F5F5;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 9.5px;
+border-radius: 50%;
+border: 1.5px solid #008ECC;
 }
 
 .round-img img{
-    width: 75%;
+    width: 35%;
+    /* height: 50%; */
 }
-
-.phone-screen-img{
-    width: 120;
-    /* height: 10vh; */
-    /* background-color: purple; */
-    position: absolute;
-    top: 29px;
-    left:73px;
-    
-}
-
-.phone-screen-img img{
-    width: 105%;
-  
-}
-
 .text-1{
     width: 100px;
 /* background-color: yellow;     */
-margin-left: 40px;
 margin-top: 5px;
 }
 
@@ -1162,44 +1149,30 @@ margin-top: 5px;
     height: 30vh;
     /* background-color: #565859; */
     display: flex;
-    justify-content: center;
-    position: relative;
+    align-items: center;
     flex-direction: column;
 }
 
 .round-img-2{
-    width: 180px;
-height: 25vh;
-/* background-color: #249B3E; */
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+background-color: #F5F5F5;
 display: flex;
 justify-content: center;
-align-items: center;
-margin-left: 9.5px;
+
 }
 
 .round-img-2 img{
-    width: 75%;
+    width: 40%;
 }
 
-.facewash-img-2{
-    width: 120;
-    /* height: 10vh; */
-    /* background-color: purple; */
-    position: absolute;
-    top: 20px;
-    left:64px;
-    
-}
-
-.facewash-img-2 img{
-    width: 105%;
-  
-}
 
 .text-2{
     width: 100px;
 /* background-color: yellow;     */
-margin-left: 40px;
+/* margin-left: 40px; */
 margin-top: 5px;
 }
 
@@ -1220,44 +1193,32 @@ margin-top: 5px;
     height: 30vh;
     /* background-color: #565859; */
     display: flex;
-    justify-content: center;
-    position: relative;
+    align-items: center;
     flex-direction: column;
 }
 
 .round-img-3{
-    width: 180px;
-height: 25vh;
-/* background-color: #249B3E; */
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+background-color: #F5F5F5;
 display: flex;
 justify-content: center;
-align-items: center;
-margin-left: 9.5px;
+
+
 }
 
 .round-img-3 img{
-    width: 75%;
+    width: 70%;
 }
 
-.watch-img-3{
-    width: 120;
-    /* height: 10vh; */
-    /* background-color: purple; */
-    position: absolute;
-    top: 29px;
-    left:50px;
-    
-}
 
-.watch-img-3 img{
-    width: 105%;
-  
-}
 
 .text-3{
     width: 100px;
 /* background-color: yellow;     */
-margin-left: 40px;
+
 margin-top: 5px;
 }
 
@@ -1279,28 +1240,32 @@ margin-top: 5px;
     /* background-color: #565859; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .round-img-chair{
-    width: 180px;
-height: 25vh;
+    align-items: center;
+width: 140px;
+height: 140px;
+border-radius: 50%;
 margin-top: 4px;
-margin-left: 33px;
+/* background-color: #F5F5F5; */
 }
 .round-img-chair img{
-    width: 75%;
+    width: 100%;
 }
 
 .text-4{
-    width: 100px;
+    width: 70px;
 /* background-color: yellow;     */
-margin-left: 40px;
+
 margin-top: 3px;
 }
 
 .text-4 p{
     font-family: sans-serif;
-    margin-left: 32px;
+    /* margin-left: 32px; */
     color: #222222;
 }
 
@@ -1316,28 +1281,31 @@ margin-top: 3px;
     /* background-color: #565859; */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .round-img-machine{
-    width: 180px;
-height: 25vh;
+    align-items: center;
+width: 140px;
+height: 140px;
+border-radius: 50%;
 margin-top: 5px;
-margin-left: 32px;
+/* background-color: red */
 }
 .round-img-machine img{
-    width: 75%;
+    width: 100%;
 }
 
 .text-5{
-    width: 100px;
+    width: 80px;
 /* background-color: yellow;     */
-margin-left: 30px;
+/* margin-left: 30px; */
 margin-top: 3.5px;
 }
 
 .text-5 p{
     font-family: sans-serif;
-    margin-left: 32px;
+    /* margin-left: 32px; */
     color: #222222;
 }
 
@@ -1528,372 +1496,344 @@ margin-top: 3.5px;
 
     /* <!-- four card images section is started  --> */
 
-    .daily-essentioal-baskit{
+    .baskit{
         width: 170px;
-        height: 38vh;
-        /* background-color: #a0d4ab; */
-        position: relative;
+        height: 35vh;
+        /* background-color: plum; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+justify-content: space-around;
+    }
+
+    .baskit-image{
+        width: 130px;
+        height: 130px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+border: 1.5px solid #008ECC;
+
+    }
+
+    .baskit-image img{
+        width: 100%;
+    }
+
+    .daily-essentials-text1{
+        width: 150;
+        /* background-color: palevioletred; */
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
     }
 
-    .square-shape-image{
-        width: 160px;
-        height: 23vh;
-        /* background-color: purple; */
+    .daily-essentials-text1 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
     }
 
-    .square-shape-image img{
-        width: 100%;
-        height: 130%;
+    .daily-essentials-text1 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
     }
-.baskit-image{
-    position: absolute;
-    bottom: 95px;
-    width: 150px;
-    height: 20vh;
-    left: 15px;
-    /* background-color: rgb(205, 159, 50); */
-}
 
-.baskit-image img{
-    width: 93%;
-}
+    .baskit:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
 
-.daily-essentioal-text-1{
-    width: 150px;
-    /* background-color: #c9c1c1; */
-    margin-top: 15px;
-}
-
-.daily-essentioal-text-1 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: #666666;
-    margin-left: 17px;
-    
-}
-
-.daily-essentioal-text-1 h4{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 14px;
-}
-
-.daily-essentioal-baskit:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
-
-    .daily-essentioal-vegetables{
+    .vegetable{
         width: 170px;
-        height: 38vh;
-        /* background-color: #a0d4ab; */
-        position: relative;
+        height: 35vh;
+        /* background-color: plum; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+justify-content: space-around;
+    }
+
+    .vegetable-image{
+        width: 130px;
+        height: 130px;
+        background-color:#F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .vegetable-image img{
+        width: 80%;
+    }
+
+    .daily-essentials-text2{
+        width: 150;
+        /* background-color: palevioletred; */
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
     }
 
-    .square-shape-image{
-        width: 160px;
-        height: 23vh;
-        /* background-color: purple; */
+    .daily-essentials-text2 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
+        text-transform: capitalize;
     }
 
-    .square-shape-image img{
-        width: 100%;
-        height: 130%;
-    }
-.vegetable-image{
-    position: absolute;
-    bottom: 105px;
-    width: 100px;
-    height: 20vh;
-    left: 35px;
-    /* background-color: rgb(205, 159, 50); */
-}
-
-.vegetable-image img{
-    width: 100%;
-    height: 100%;
-}
-
-.daily-essentioal-text-2{
-    width: 150px;
-    /* background-color: #c9c1c1; */
-    margin-top: 15px;
-}
-
-.daily-essentioal-text-2 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: #666666;
-    margin-left: 33px;
-    
-}
-
-.daily-essentioal-text-2 h4{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.daily-essentioal-vegetables:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
-
-.daily-essentioal-fruits{
-    width: 170px;
-    height: 38vh;
-    /* background-color: #a0d4ab; */
-    position: relative;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-}
-   .square-shape-image{
-        width: 160px;
-        height: 23vh;
-        /* background-color: purple; */
+    .daily-essentials-text2 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
     }
 
-    .square-shape-image img{
-        width: 100%;
-        height: 130%;
+    .vegetable:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
     }
-.fruits-image{
-    position: absolute;
-    bottom: 115px;
-    width: 120px;
-    height: 18vh;
-    left: 24px;
-    /* background-color: rgb(205, 159, 50); */
-}
 
-.fruits-image img{
-    width: 100%;
-    height: 100%;
-}
-
-.daily-essentioal-text-3{
-    width: 150px;
-    /* background-color: #c9c1c1; */
-    margin-top: 15px;
-}
-
-.daily-essentioal-text-3 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: #666666;
-    margin-left: 50px;
-    
-}
-
-.daily-essentioal-text-3 h4{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.daily-essentioal-fruits:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
-
-
-    .daily-essentioal-strawberry{
+    .fruits{
         width: 170px;
-        height: 38vh;
-        /* background-color: #a0d4ab; */
+        height: 35vh;
+        /* background-color: plum; */
         display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
-        position: relative;
+        flex-direction: column;
+justify-content: space-around;
     }
 
-   
-.square-shape-image{
-    width: 160px;
-    height: 23vh;
-    /* background-color: purple; */
-}
+    .fruits-image{
+        width: 130px;
+        height: 130px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-.square-shape-image img{
-    width: 100%;
-    height: 130%;
-}
-.Strawberry-image{
-position: absolute;
-width: 120px;
-height: 18vh;
-top:20px;
-margin-left: 5px;
 
-/* background-color: rgb(205, 159, 50); */
-}
+    }
 
-.Strawberry-image img{
-width: 90%;
-height: 90%;
-}
+    .fruits-image img{
+        width: 90%;
+    }
 
-.daily-essentioal-text-4{
-width: 150px;
-/* background-color: #c9c1c1; */
-margin-top: 15px;
-}
+    .daily-essentials-text3{
+        width: 150;
+        /* background-color: #F5F5F5; */
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.daily-essentioal-text-4 p{
-font-family: sans-serif;
-font-size: 15px;
-color: #666666;
-margin-left: 34px;
+    .daily-essentials-text3 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
+        text-transform: capitalize;
+    }
 
-}
+    .daily-essentials-text3 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
 
-.daily-essentioal-text-4 h4{
-font-family: sans-serif;
-margin-top: 10px;
-margin-left: 15px;
-}
+    .fruits:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
 
-.daily-essentioal-strawberry:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
 
-    .daily-essentioal-mango{
+    .strawberry{
         width: 170px;
-        height: 38vh;
-        /* background-color: #a0d4ab; */
-        position: relative;
+        height: 35vh;
+        /* background-color: plum; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+justify-content: space-around;
+    }
+
+    .strawberry-image{
+        width: 130px;
+        height: 130px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .strawberry img{
+        width: 90%;
+    }
+
+    .daily-essentials-text4{
+        width: 150;
+        /* background-color: palevioletred; */
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
     }
 
-   .square-shape-image{
-        width: 160px;
-        height: 23vh;
-        /* background-color: purple; */
+    .daily-essentials-text4 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
+        text-transform: capitalize;
     }
 
-    .square-shape-image img{
-        width: 100%;
-        height: 130%;
+    .daily-essentials-text4 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
     }
-.mango-image{
-    position: absolute;
-    bottom: 100px;
-    width: 120px;
-    height: 18vh;
-    left: 26px;
-    /* background-color: rgb(205, 159, 50); */
-}
 
-.mango-image img{
-    width: 90%;
-    height: 90%;
-}
+    .strawberry:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
 
-.daily-essentioal-text-5{
-    width: 150px;
-    /* background-color: #c9c1c1; */
-    margin-top: 15px;
-}
-
-.daily-essentioal-text-5 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: #666666;
-    margin-left: 50px;
-    
-}
-
-.daily-essentioal-text-5 h4{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.daily-essentioal-mango:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
-
-    .daily-essentioal-cherry{
+    .mango{
         width: 170px;
-        height: 38vh;
-        /* background-color: #a0d4ab; */
-        position: relative;
+        height: 35vh;
+        /* background-color: plum; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+justify-content: space-around;
+    }
+
+    .mango-image{
+        width: 130px;
+        height: 130px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .mango-image img{
+        width: 75%;
+    }
+
+    .daily-essentials-text5{
+        width: 150;
+        /* background-color: palevioletred; */
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
+    }
+
+    .daily-essentials-text5 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
+        text-transform: capitalize;
+    }
+
+    .daily-essentials-text5 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+
+    .mango:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
+
+    .cherry{
+        width: 170px;
+        height: 35vh;
+        /* background-color: plum; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+justify-content: space-around;
+    }
+
+    .cherry-image{
+        width: 130px;
+        height: 130px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .cherry img{
+        width: 65%;
+    }
+
+    .daily-essentials-text6{
+        width: 150;
+        /* background-color: palevioletred; */
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .daily-essentials-text6 p{
+        font-family: sans-serif;
+        color: #666666;
+        font-size: 0.7em;
+        text-transform: capitalize;
+    }
+
+    .daily-essentials-text6 h4{
+        font-family: sans-serif;
+        color: black;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+
+    .cherry:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.8s;
+    }
     
-    }
-   .square-shape-image{
-        width: 160px;
-        height: 23vh;
-        background-color: rgb(255, 255, 255);
-    }
-
-    .square-shape-image img{
-        width: 100%;
-        height: 130%;
-    }
-.cherry-image{
-    position: absolute;
-    bottom: 98px;
-    width: 120px;
-    height: 18vh;
-    left: 35px;
-    /* background-color: rgb(205, 159, 50); */
-}
-
-.cherry-image img{
-    width: 80%;
-    height: 75%;
-}
-
-.daily-essentioal-text-6{
-    width: 150px;
-    /* background-color: #c9c1c1; */
-    margin-top: 15px;
-}
-
-.daily-essentioal-text-6 p{
-    font-family: sans-serif;
-    font-size: 15px;
-    color: #666666;
-    margin-left: 45px;
-    
-}
-
-.daily-essentioal-text-6 h4{
-    font-family: sans-serif;
-    margin-top: 10px;
-    margin-left: 15px;
-}
  
-.daily-essentioal-cherry:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.8s;
-}
+
 
 /* four card images section is completed  */ 
 
